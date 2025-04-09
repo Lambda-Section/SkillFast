@@ -1,0 +1,36 @@
+{
+  "name": "skillfast",
+  "version": "1.0.0",
+  "description": "Track habits with completion percentages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "start": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lambda-Section/SkillFast.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lambda-Section/SkillFast/issues"
+  },
+  "homepage": "https://github.com/Lambda-Section/SkillFast#readme",
+  "dependencies": {
+    "@types/react": "^19.1.0",
+    "@types/react-dom": "^19.1.2",
+    "chart.js": "^4.4.8",
+    "react": "^19.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "^19.1.0",
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.0.0"
+  }
+}
